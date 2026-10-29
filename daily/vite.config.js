@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'daily_news',
+        target: '/daily_news/',
         changeOrigin: true,
       },
     },
